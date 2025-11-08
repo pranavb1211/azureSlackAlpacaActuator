@@ -1,0 +1,36 @@
+# -------------------------------
+# Core FastAPI + Web Server
+# -------------------------------
+fastapi
+uvicorn
+gunicorn
+aiohttp
+httpx
+python-dotenv
+
+# -------------------------------
+# AutoGen (agents + OpenAI clients)
+# -------------------------------
+autogen-agentchat==0.7.2
+autogen-core==0.7.2
+autogen-ext==0.7.2
+openai>=1.35.3
+tiktoken
+
+# -------------------------------
+# Azure SDKs (for AI + Identity + Storage)
+# -------------------------------
+azure-ai-agents==1.1.0
+azure-ai-inference==1.0.0b9
+azure-ai-projects==1.1.0b2
+azure-common==1.1.28
+azure-core==1.35.0
+azure-identity==1.24.0
+azure-search-documents==11.5.3
+azure-storage-blob==12.26.0
+
+# -------------------------------
+# Optional (safe to include, ensures async stability on Azure)
+# -------------------------------
+anyio>=4.0.0
+regex
